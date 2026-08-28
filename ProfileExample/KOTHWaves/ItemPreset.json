@@ -1,0 +1,305 @@
+{
+    "Default_Preset": "military",
+    "Presets": [
+        {
+            "Name": "military",
+            "Loot": [
+                {
+                    "ClassName": "FAL",
+                    "Magazine_ClassName": "Mag_FAL_20Rnd",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 2,
+                    "Quantity": -1,
+                    "Attach": [
+                        "Fal_OeBttsck",
+                        "ACOGOptic"
+                    ],
+                    "Extra_Items": [
+                        "Mag_FAL_20Rnd",
+                        "Mag_FAL_20Rnd"
+                    ],
+                    "Alternatives": []
+                },
+                {
+                    "ClassName": "SVD",
+                    "Magazine_ClassName": "Mag_SVD_10Rnd",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 2,
+                    "Quantity": -1,
+                    "Attach": [
+                        "PSO1Optic"
+                    ],
+                    "Extra_Items": [
+                        "Mag_SVD_10Rnd",
+                        "Mag_SVD_10Rnd"
+                    ],
+                    "Alternatives": []
+                },
+                {
+                    "ClassName": "PlateCarrierVest",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 2,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": [
+                        "PlateCarrierVest_Black",
+                        "PlateCarrierVest_Camo"
+                    ]
+                },
+                {
+                    "ClassName": "BallisticHelmet_Green",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 2,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": [
+                        "BallisticHelmet_Black",
+                        "BallisticHelmet_Woodland"
+                    ]
+                },
+                {
+                    "ClassName": "AKM",
+                    "Magazine_ClassName": "Mag_AKM_30Rnd",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 2,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [
+                        "Mag_AKM_30Rnd",
+                        "Mag_AKM_30Rnd"
+                    ],
+                    "Alternatives": []
+                }
+            ]
+        },
+        {
+            "Name": "medical",
+            "Loot": [
+                {
+                    "ClassName": "BandageDressing",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 4,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": []
+                },
+                {
+                    "ClassName": "Morphine",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 3,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": []
+                },
+                {
+                    "ClassName": "Epinephrine",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 2,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": []
+                },
+                {
+                    "ClassName": "SalineBag",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 2,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": []
+                },
+                {
+                    "ClassName": "BloodBagIV",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 2,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": []
+                },
+                {
+                    "ClassName": "PainkillerTablets",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 3,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": []
+                },
+                {
+                    "ClassName": "TetracyclineAntibiotics",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 2,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": []
+                }
+            ]
+        },
+        {
+            "Name": "basebuilding",
+            "Loot": [
+                {
+                    "ClassName": "NailBox",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 4,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": []
+                },
+                {
+                    "ClassName": "MetalPlate",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 3,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": []
+                },
+                {
+                    "ClassName": "WoodenPlank",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 4,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": []
+                },
+                {
+                    "ClassName": "Hatchet",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 2,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": []
+                },
+                {
+                    "ClassName": "SledgeHammer",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 2,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": []
+                },
+                {
+                    "ClassName": "Shovel",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 2,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": []
+                },
+                {
+                    "ClassName": "CombinationLock4",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 1,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": []
+                }
+            ]
+        },
+        {
+            "Name": "boss",
+            "Loot": [
+                {
+                    "ClassName": "SVD",
+                    "Magazine_ClassName": "Mag_SVD_10Rnd",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 2,
+                    "Quantity": -1,
+                    "Attach": [ "PSO1Optic" ],
+                    "Extra_Items": [ "Mag_SVD_10Rnd", "Mag_SVD_10Rnd" ],
+                    "Alternatives": []
+                },
+                {
+                    "ClassName": "FAL",
+                    "Magazine_ClassName": "Mag_FAL_20Rnd",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 2,
+                    "Quantity": -1,
+                    "Attach": [ "Fal_OeBttsck", "ACOGOptic" ],
+                    "Extra_Items": [ "Mag_FAL_20Rnd", "Mag_FAL_20Rnd" ],
+                    "Alternatives": []
+                },
+                {
+                    "ClassName": "PlateCarrierVest",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 2,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": [ "PlateCarrierVest_Black", "PlateCarrierVest_Camo" ]
+                },
+                {
+                    "ClassName": "BallisticHelmet_Green",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 2,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": [ "BallisticHelmet_Black", "BallisticHelmet_Woodland" ]
+                },
+                {
+                    "ClassName": "NVGoggles",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 1,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": []
+                },
+                {
+                    "ClassName": "Morphine",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 3,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": []
+                },
+                {
+                    "ClassName": "BandageDressing",
+                    "Magazine_ClassName": "",
+                    "Spawn_Chance": 100,
+                    "Max_Spawnable": 4,
+                    "Quantity": -1,
+                    "Attach": [],
+                    "Extra_Items": [],
+                    "Alternatives": []
+                }
+            ]
+        }
+    ]
+}

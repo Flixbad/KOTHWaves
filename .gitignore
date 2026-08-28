@@ -1,0 +1,25 @@
+# Build / packaging DayZ
+*.pbo
+*.bisign
+*.bikey
+*.bak
+*.tmp
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs & secrets
+*.log
+.env
+.env.*
+*.key
+credentials.json
+
+# Local profiles (runtime server data — use ProfileExample as reference)
+profiles/

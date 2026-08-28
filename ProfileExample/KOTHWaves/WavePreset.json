@@ -1,0 +1,58 @@
+{
+    "Default_Preset": "military_zombies",
+    "Presets": [
+        {
+            "Name": "military_zombies",
+            "Enemies": [
+                { "ClassName": "ZmbM_PatrolNormal_Autumn", "SpawnRarity": 0, "Difficulty": 3 },
+                { "ClassName": "ZmbM_PatrolNormal_Summer", "SpawnRarity": 0, "Difficulty": 3 },
+                { "ClassName": "ZmbM_SoldierNormal", "SpawnRarity": 0, "Difficulty": 4 },
+                { "ClassName": "ZmbM_usSoldier_normal_Woodland", "SpawnRarity": 0, "Difficulty": 5 },
+                { "ClassName": "ZmbM_usSoldier_Officer_Desert", "SpawnRarity": 0, "Difficulty": 5 }
+            ]
+        },
+        {
+            "Name": "city_infected",
+            "Enemies": [
+                { "ClassName": "ZmbF_CitizenANormal_Beige", "SpawnRarity": 0, "Difficulty": 1 },
+                { "ClassName": "ZmbM_CitizenASkinny_Blue", "SpawnRarity": 0, "Difficulty": 1 },
+                { "ClassName": "ZmbM_Jacket_black", "SpawnRarity": 0, "Difficulty": 2 },
+                { "ClassName": "ZmbF_JoggerSkinny_Blue", "SpawnRarity": 0, "Difficulty": 2 },
+                { "ClassName": "ZmbM_ParamedicNormal_Blue", "SpawnRarity": 0, "Difficulty": 3 },
+                { "ClassName": "ZmbF_PoliceWomanNormal", "SpawnRarity": 0, "Difficulty": 3 },
+                { "ClassName": "ZmbM_PolicemanFat", "SpawnRarity": 0, "Difficulty": 4 }
+            ]
+        },
+        {
+            "Name": "mutants",
+            "Enemies": [
+                { "ClassName": "VOTRE_CLASSNAME_MUTANT_1", "SpawnRarity": 0, "Difficulty": 4 },
+                { "ClassName": "VOTRE_CLASSNAME_MUTANT_2", "SpawnRarity": 0, "Difficulty": 4 },
+                { "ClassName": "VOTRE_CLASSNAME_MUTANT_3", "SpawnRarity": 0, "Difficulty": 5 }
+            ]
+        },
+        {
+            "Name": "wildlife",
+            "Enemies": [
+                { "ClassName": "Animal_CanisLupus_Grey", "SpawnRarity": 0, "Difficulty": 3 },
+                { "ClassName": "Animal_CanisLupus_White", "SpawnRarity": 0, "Difficulty": 3 },
+                { "ClassName": "Animal_UrsusArctos", "SpawnRarity": 0, "Difficulty": 5 }
+            ]
+        },
+        {
+            "Name": "boss",
+            "Enemies": [
+                { "ClassName": "VOTRE_CLASSNAME_BOSS", "SpawnRarity": 0, "Difficulty": 5 }
+            ]
+        },
+        {
+            "Name": "mutant_wildlife",
+            "Enemies": [
+                { "ClassName": "Animal_CanisLupus_Grey", "SpawnRarity": 0, "Difficulty": 2 },
+                { "ClassName": "Animal_CanisLupus_White", "SpawnRarity": 0, "Difficulty": 2 },
+                { "ClassName": "Animal_UrsusArctos", "SpawnRarity": 0, "Difficulty": 4 },
+                { "ClassName": "Animal_SusScrofa", "SpawnRarity": 0, "Difficulty": 2 }
+            ]
+        }
+    ]
+}

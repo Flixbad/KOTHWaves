@@ -1,0 +1,312 @@
+{
+    "Settings": {
+        "Config_Version": 1.0,
+        "Minimum_Players": 0,
+        "Cleanup_Radius": 5,
+        "Cleanup_Time_After_KOTH_Finished": 300,
+        "Reward_Delete_On_Cleanup": 1,
+        "Players_In_Radius_Check_Range": 200,
+        "Max_Simultaneous": 1,
+        "Start_Delay": 600,
+        "Starting_Failed_Retry_Delay": 120,
+        "Time_Between": 1800,
+        "Time_Limit": 1200,
+        "Spawn_Start_Delay": 0,
+        "Capture_Time": 900,
+        "Capture_Speed_Bonus_PerPlayer_PerSec": 0.25,
+        "Capture_Speed_Bonus_PerPlayer_PerSec_Max": 2.0,
+        "Flag_Lower_If_Abandoned": 1,
+        "Map_Marker_Enabled": 1,
+        "LB_Marker_Radius": 150.0,
+        "Perspective_Marker_Enabled": 0,
+        "Notification_Enabled": 1,
+        "Logging_Enabled": 1,
+        "Debug_QuickMode": 0,
+        "Spawn_Outdoor_Only": 1,
+        "Flags": [
+            "Flag_Bohemia",
+            "Flag_Chernarus",
+            "Flag_Pirates"
+        ],
+        "Flag_ClassName": "KOTHWavesTerritoryFlag",
+        "Reward_Fallback_ClassName": "KOTHWavesRewardCrate",
+        "Reward_Despawn_Seconds": 600,
+        "Fireworks_Enabled": 1,
+        "Flag_Smoke_Enabled": 1,
+        "Fireworks_ClassName": "FireworksLauncher",
+        "Marker_Color_Empty": "Yellow",
+        "Marker_Color_Capturing": "White",
+        "Marker_Color_Finished": "Black",
+        "Marker_Icon": "King",
+        "Marker_Display_3D": 0,
+        "Marker_Display_Map": 1,
+        "Marker_Display_GPS": 1,
+        "Notif_Spawn_Title": "Roi de la colline",
+        "Notif_Spawn_Body": "KOTH actif à %1. Prenez le drapeau, survivez aux vagues — c'est parti !",
+        "Notif_Wave_Title": "Vague incoming",
+        "Notif_Wave_Body": "%2 sur %1 : %3 hostiles détectés. Tenez la ligne !",
+        "Notif_Progress_Title": "Capture en cours",
+        "Notif_Progress_Body": "%1 — %2%% capturé. Ne lâchez rien !",
+        "Notif_Victory_Title": "Victoire !",
+        "Notif_Victory_Body": "%2 remporte %1 ! Loot au sol — récupérez-le avant %3.",
+        "Notif_Defeat_Title": "Temps écoulé — %1",
+        "Notif_Defeat_Body": "Plus de temps à %1. Drapeau perdu. Prochain round bientôt.",
+        "Notif_Cleanup_Title": "KOTH terminé",
+        "Notif_Cleanup_Body": "%1 fermé. Merci pour le show !",
+        "Notif_Flag_Error_Title": "Erreur KOTH",
+        "Notif_Flag_Error_Body": "Drapeau introuvable à %1 (classe : %2). Vérifiez Flag_ClassName.",
+        "Notif_Reward_Error_Title": "Récompense — %1",
+        "Notif_Reward_Error_Body": "Caisse de loot impossible à spawner. Vérifiez les classnames conteneur.",
+        "Notif_Duration_Spawn": 12.0,
+        "Notif_Duration_Wave": 10.0,
+        "Notif_Duration_Progress": 8.0,
+        "Notif_Duration_Victory": 14.0,
+        "Notif_Duration_Defeat": 12.0,
+        "Notif_Duration_Cleanup": 8.0,
+        "Notif_Duration_Error": 12.0
+    },
+    "KOTHs": [
+        {
+            "Name": "Zelenogorsk Military",
+            "Reward_Position": [
+                2562.699951,
+                193.175003,
+                5117.337891
+            ],
+            "Reward_Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Capture_Radius": 40,
+            "Reward_Loot_Count": 6,
+            "Loot_Preset": "military",
+            "Loot_Preset_Chances": [
+                { "Preset": "military", "Chance": 70 },
+                { "Preset": "medical", "Chance": 30 }
+            ],
+            "Wave_Preset": "military_zombies",
+            "Victory_Loot_Preset": "boss",
+            "Reward_Container_Classnames": [
+                "KOTHWavesRewardCrate"
+            ],
+            "Static_Objects": [],
+            "Waves": [
+                {
+                    "Name": "Vague 1 — Militaires",
+                    "DelaySeconds": 0,
+                    "Enemy_Preset": "military_zombies",
+                    "ZombieCount": 25,
+                    "DifficultyMin": 1,
+                    "DifficultyMax": 4,
+                    "SpawnRadiusMin": 18.0,
+                    "SpawnRadiusMax": 35.0
+                },
+                {
+                    "Name": "Vague 2 — Civils",
+                    "DelaySeconds": 225,
+                    "Enemy_Preset": "city_infected",
+                    "ZombieCount": 20,
+                    "DifficultyMin": 1,
+                    "DifficultyMax": 4,
+                    "SpawnRadiusMin": 20.0,
+                    "SpawnRadiusMax": 40.0
+                },
+                {
+                    "Name": "Vague 3 — Mutants",
+                    "DelaySeconds": 450,
+                    "SpawnRadiusMin": 22.0,
+                    "SpawnRadiusMax": 45.0,
+                    "Spawns": [
+                        { "Preset": "mutants", "CountPerType": 2 }
+                    ]
+                },
+                {
+                    "Name": "Vague 4 — Faune",
+                    "DelaySeconds": 675,
+                    "SpawnRadiusMin": 25.0,
+                    "SpawnRadiusMax": 50.0,
+                    "Spawns": [
+                        { "Preset": "wildlife", "CountPerType": 1 }
+                    ]
+                },
+                {
+                    "Name": "Vague 5 — Boss",
+                    "DelaySeconds": 750,
+                    "SpawnRadiusMin": 28.0,
+                    "SpawnRadiusMax": 55.0,
+                    "Spawns": [
+                        { "Preset": "boss", "Count": 1 },
+                        { "Preset": "military_zombies", "Count": 10, "DifficultyMin": 1, "DifficultyMax": 3 }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Elektro Police Station",
+            "Reward_Position": [
+                10461.144531,
+                5.957,
+                2258.447021
+            ],
+            "Reward_Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Capture_Radius": 40,
+            "Reward_Loot_Count": 6,
+            "Loot_Preset": "medical",
+            "Loot_Preset_Chances": [
+                { "Preset": "medical", "Chance": 60 },
+                { "Preset": "military", "Chance": 40 }
+            ],
+            "Wave_Preset": "military_zombies",
+            "Victory_Loot_Preset": "boss",
+            "Reward_Container_Classnames": [
+                "KOTHWavesRewardCrate"
+            ],
+            "Static_Objects": [],
+            "Waves": [
+                {
+                    "Name": "Vague 1 — Militaires",
+                    "DelaySeconds": 0,
+                    "Enemy_Preset": "military_zombies",
+                    "ZombieCount": 25,
+                    "DifficultyMin": 1,
+                    "DifficultyMax": 4,
+                    "SpawnRadiusMin": 18.0,
+                    "SpawnRadiusMax": 35.0
+                },
+                {
+                    "Name": "Vague 2 — Civils",
+                    "DelaySeconds": 225,
+                    "Enemy_Preset": "city_infected",
+                    "ZombieCount": 20,
+                    "DifficultyMin": 1,
+                    "DifficultyMax": 4,
+                    "SpawnRadiusMin": 20.0,
+                    "SpawnRadiusMax": 40.0
+                },
+                {
+                    "Name": "Vague 3 — Mutants",
+                    "DelaySeconds": 450,
+                    "SpawnRadiusMin": 22.0,
+                    "SpawnRadiusMax": 45.0,
+                    "Spawns": [
+                        { "Preset": "mutants", "CountPerType": 2 }
+                    ]
+                },
+                {
+                    "Name": "Vague 4 — Faune",
+                    "DelaySeconds": 675,
+                    "SpawnRadiusMin": 25.0,
+                    "SpawnRadiusMax": 50.0,
+                    "Spawns": [
+                        { "Preset": "wildlife", "CountPerType": 1 }
+                    ]
+                },
+                {
+                    "Name": "Vague 5 — Boss",
+                    "DelaySeconds": 750,
+                    "SpawnRadiusMin": 28.0,
+                    "SpawnRadiusMax": 55.0,
+                    "Spawns": [
+                        { "Preset": "boss", "Count": 1 },
+                        { "Preset": "military_zombies", "Count": 10, "DifficultyMin": 1, "DifficultyMax": 3 }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Krasnostav Airfield",
+            "Reward_Position": [
+                11833.782227,
+                341.458710,
+                12502.089844
+            ],
+            "Reward_Orientation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Capture_Radius": 40,
+            "Reward_Loot_Count": 6,
+            "Loot_Preset": "military",
+            "Loot_Preset_Chances": [
+                { "Preset": "military", "Chance": 70 },
+                { "Preset": "medical", "Chance": 30 }
+            ],
+            "Wave_Preset": "military_zombies",
+            "Victory_Loot_Preset": "boss",
+            "Reward_Container_Classnames": [
+                "KOTHWavesRewardCrate"
+            ],
+            "Static_Objects": [],
+            "Waves": [
+                {
+                    "Name": "Vague 1 — Militaires",
+                    "DelaySeconds": 0,
+                    "Enemy_Preset": "military_zombies",
+                    "ZombieCount": 25,
+                    "DifficultyMin": 1,
+                    "DifficultyMax": 4,
+                    "SpawnRadiusMin": 18.0,
+                    "SpawnRadiusMax": 35.0
+                },
+                {
+                    "Name": "Vague 2 — Civils",
+                    "DelaySeconds": 225,
+                    "Enemy_Preset": "city_infected",
+                    "ZombieCount": 20,
+                    "DifficultyMin": 1,
+                    "DifficultyMax": 4,
+                    "SpawnRadiusMin": 20.0,
+                    "SpawnRadiusMax": 40.0
+                },
+                {
+                    "Name": "Vague 3 — Mutants",
+                    "DelaySeconds": 450,
+                    "SpawnRadiusMin": 22.0,
+                    "SpawnRadiusMax": 45.0,
+                    "Spawns": [
+                        { "Preset": "mutants", "CountPerType": 2 }
+                    ]
+                },
+                {
+                    "Name": "Vague 4 — Faune",
+                    "DelaySeconds": 675,
+                    "SpawnRadiusMin": 25.0,
+                    "SpawnRadiusMax": 50.0,
+                    "Spawns": [
+                        { "Preset": "wildlife", "CountPerType": 1 }
+                    ]
+                },
+                {
+                    "Name": "Vague 5 — Boss",
+                    "DelaySeconds": 750,
+                    "SpawnRadiusMin": 28.0,
+                    "SpawnRadiusMax": 55.0,
+                    "Spawns": [
+                        { "Preset": "boss", "Count": 1 },
+                        { "Preset": "military_zombies", "Count": 10, "DifficultyMin": 1, "DifficultyMax": 3 }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Reward_Containers": [
+        {
+            "ClassName": "KOTHWavesRewardCrate",
+            "Is_Scripted_Reward": 0
+        },
+        {
+            "ClassName": "SeaChest",
+            "Is_Scripted_Reward": 0
+        },
+        {
+            "ClassName": "Barrel_Green",
+            "Is_Scripted_Reward": 0
+        }
+    ]
+}

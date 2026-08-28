@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+*.pbo binary
+*.bisign binary
+*.bikey binary
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
